@@ -1,0 +1,46 @@
+A{
+    display: block;
+    color: black;
+    width: 1360px;
+    border: 80px solid rgb(255, 196, 0);
+}
+
+B{
+    display: block;
+    color: black;
+    width: 300px;
+    border: 5px solid rgb(255, 196, 0);
+    line-height: 140px;
+    text-align: center;
+}
+
+C{
+    display: block;
+    color: black;
+    width: 1450px;
+    border: 5px solid rgb(255, 196, 0);
+    background-color: rgb(255, 196, 0) ;
+    padding: 30px;
+}
+
+h1{
+
+    font-size: 20px;
+    color: rgb(0, 153, 255);
+}
+
+h2{
+
+    font-size: 20px;
+    color: rgb(0, 153, 255);
+}
+
+h3{
+
+    font-size: 20px;
+    color: rgb(0, 153, 255);
+}
+
+u{
+    color: rgb(0, 153, 255);
+}
