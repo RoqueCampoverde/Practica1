@@ -44,3 +44,11 @@ h3{
 u{
     color: rgb(0, 153, 255);
 }
+
+img {
+    float: left;
+    width: 200px;
+    line-height: 140px;
+    text-align: center;
+}
+

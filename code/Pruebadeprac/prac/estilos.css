@@ -1,0 +1,80 @@
+* {
+    margin: 1px;
+}
+
+.container {                                   /*Organizacion de los cuadros */
+    display: grid;
+    grid-template: 150px 1fr 50px / 200px 1fr;
+    grid-template-areas: "header header" "left content" "footer footer";
+    gap:10px;
+    height: 100vh;
+}
+
+.item {                                        /* Borde de los 4 */
+    border: 1px solid rgb(255, 196, 0);
+}
+
+.header {                                      /* Parte de arriba */
+    grid-area: header;
+    background-color: rgb(255, 196, 0);
+}
+
+.footer {                                     /* Parte amarilla de abajo */
+    grid-area: footer;
+    background-color: rgb(255, 196, 0);
+}
+
+.contenido{                                   /*Imagen del perrito*/
+    grid-area: content;
+    display: flex;
+    /*flex-direction: row;
+    justify-content: space-between;*/
+    align-items: center;
+    /*align-content: center;*/
+    /*margin-left: auto; /*Imagen*/
+    /*margin-right: auto; /*Imagen*/
+    /*vertical-align: middle; /*Imagen*/
+    justify-content: center;
+    /*line-height: 20px;
+    margin: auto;*/
+}
+
+.boton1{                           /* Flecha izquierda */
+    position: absolute;
+    top: 100px;
+    left: -40px;
+    padding: 290px;
+}
+
+.boton2{                          /* Flecha derecha */
+    position: absolute;
+    top: 100px;
+    right: -150px;
+    padding: 290px;
+    bottom: 40%;
+}
+
+#gal ul {                     /* Galeria1,2,3*/
+    list-style: none;
+    padding: 30px;
+}
+
+#gal a {                      /* Galeria1,2,3*/
+    display: block;
+    color: rgb(0, 81, 255);
+    padding: 10px;
+    margin-bottom: 8px;
+    font-size: 25px;
+}
+
+#gal a:hover {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+a:active {
+    color: black;
+    background-color: yellow;
+}
+
+
